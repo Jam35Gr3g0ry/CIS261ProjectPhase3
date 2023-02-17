@@ -62,7 +62,7 @@ def printinfo(DetailsPrinted):
     with open(FILENAME, "r") as EmpFile:
 
         while True:
-            rundate = input ("Enter start date for report (MM/DD/YYYY) or All for all data in file: ")
+            rundate = input ("Enter start date for report (YYYY-MM-DD) or All for all data in file: ")
             if (rundate.upper() == "ALL"):
                 break
             try:
