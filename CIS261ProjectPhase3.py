@@ -158,7 +158,6 @@ if __name__ == "__main__":
             # close file to save data
             # write the line of code that will close the file
             EmpFile.close()    
-
             printinfo(DetailsPrinted)
 
 #***********************************************************************************************************************************************
